@@ -1,5 +1,5 @@
 [submodule "src/shared"]
 	path = src/shared
 	url = git@ng:yaojiadong666/submodule-child-one.git
-#     branch = main
-#     update = merge
+    branch = main
+    update = merge
