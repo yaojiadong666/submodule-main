@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "gitHooks": {
-    "post-merge": "git ss && git diff"
+    "post-merge": "git pull && git submodule update --init"
   },
   "repository": {
     "type": "git",
