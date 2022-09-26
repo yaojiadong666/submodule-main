@@ -1,0 +1,17 @@
+{
+  "name": "submodule-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-merge": "git ss && git diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ng:yaojiadong666/submodule-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
