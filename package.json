@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+
+  },
+  "gitHooks": {
     "post-merge": "git ss && git diff"
   },
   "repository": {
@@ -13,5 +16,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "yorkie": "^2.0.0"
+  }
 }
